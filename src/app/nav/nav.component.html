@@ -1,15 +1,13 @@
 <div class="containerNav">
-   <div class="title">
-      <p>titulo da pagina</p>
+   <div class="titleComp">
+      <ng-content select=".title"></ng-content>
    </div>
 
-   <div class="profile">
-      <p>profile da pagina</p>
+   <div class="profileComp">
+      <ng-content select=".profile"></ng-content>
    </div>
 
-   <div class="menu">
-      <p>menu da pagina</p>
-      <p>menu da pagina</p>
+   <div class="menuComp">
+      <ng-content select=".menu"></ng-content>
    </div>
-
 </div>
