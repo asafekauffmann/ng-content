@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { MainComponent } from './nav/main/main.component';
 import { AgendaComponent } from './test/agenda/agenda.component';
 import { RouterModule } from '@angular/router';
+import { AtenderComponent } from './test/atender/atender.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RouterModule } from '@angular/router';
     NavComponent,
     HomeComponent,
     MainComponent,
-    AgendaComponent
+    AgendaComponent,
+    AtenderComponent
     
   ],
   imports: [
