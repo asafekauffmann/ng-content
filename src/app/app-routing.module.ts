@@ -1,3 +1,4 @@
+import { AtenderComponent } from './test/atender/atender.component';
 import { AgendaComponent } from './test/agenda/agenda.component';
 import { HomeComponent } from './home/home.component';
 import { TestComponent } from './test/test.component';
@@ -12,7 +13,10 @@ const routes: Routes = [
       path: 'test', component: TestComponent,
       children:[
          {
-            path: 'agenda', component: AgendaComponent, outlet: 'details'
+            path: 'test/agenda', component: AgendaComponent, outlet: 'details'
+         },
+         {
+            path: 'atender', component: AtenderComponent
          }
       ]
    }
