@@ -7,7 +7,8 @@ import { TestComponent } from './test/test.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { MainComponent } from './nav/main/main.component';
-import { TestmainComponent } from './test/testmain/testmain.component';
+import { AgendaComponent } from './test/agenda/agenda.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -16,12 +17,13 @@ import { TestmainComponent } from './test/testmain/testmain.component';
     NavComponent,
     HomeComponent,
     MainComponent,
-    TestmainComponent
+    AgendaComponent
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

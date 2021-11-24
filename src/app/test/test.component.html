@@ -1,4 +1,4 @@
-<div class="containerzao">
+<div class="container">
    <app-nav>
       <div class="title">
          titulo tesdd
@@ -9,13 +9,16 @@
       </div>
    
       <div class="menu">
-         <p routerLink="/">detail 01</p>
-         <p>detail 02</p>
-         <p>detail 03</p>
-         <p>detail 04</p>
-         <p>detail 05</p>
+         <a [routerLink]="['/agenda']">Pg.agenda</a>
+         <p>Pg.atender</p>
+         <p>Pg.dados</p>
+         <p>pg.fila</p>
+         <p>Pg.prontuário</p>
       </div>
    </app-nav>
+
+   <div class="containerRouter">
+      <router-outlet name="details"></router-outlet>
+   </div>
    
-   <app-testmain></app-testmain>
 </div>
