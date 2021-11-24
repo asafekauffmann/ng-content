@@ -11,14 +11,12 @@ const routes: Routes = [
    },
    {
       path: 'test', component: TestComponent,
-      children:[
-         {
-            path: 'test/agenda', component: AgendaComponent, outlet: 'details'
-         },
-         {
-            path: 'atender', component: AtenderComponent
-         }
-      ]
+   },
+   {
+      path: 'test/agenda', component: AgendaComponent, outlet: 'details'
+   },
+   {
+      path: 'atender', component: AtenderComponent, outlet: 'details'
    }
 ];
 
