@@ -23,7 +23,8 @@ import { AtenderComponent } from './test/atender/atender.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

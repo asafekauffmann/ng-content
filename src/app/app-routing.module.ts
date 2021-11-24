@@ -7,17 +7,26 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
    {
-      path: '', component: HomeComponent
+      path: '', redirectTo: 'home', pathMatch: 'full'
    },
    {
-      path: 'test', component: TestComponent,
+      path: 'home', component: HomeComponent
    },
    {
-      path: 'test/agenda', component: AgendaComponent, outlet: 'details'
-   },
-   {
-      path: 'test/atender', component: AtenderComponent, outlet: 'details'
+      path: 'test', component: TestComponent, children: [
+         {path: 'agenda', component: AgendaComponent, outlet: 'detail'},
+         {path: 'atender', component: AtenderComponent, outlet:  'detail'}
+      ]
    }
+
+
+
+   //{
+   //   path: 'test/agenda', component: AgendaComponent, outlet: 'detail'
+   //},
+   //{
+   //   path: 'test/atender', component: AtenderComponent, outlet: 'detail'
+   //}
    
 ];
 

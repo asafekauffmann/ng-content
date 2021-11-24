@@ -9,11 +9,11 @@
       </div>
    
       <div class="menu">
-         <a [routerLink]="['test/agenda']">
+         <a [routerLink]="['/agenda', {outlets: {detail: ['agendar']}}]">
             <p>Pg.agenda</p>
          </a>
 <!--[routerLink]="['', { outlets: { details: ['agenda'] } }]-->
-         <a routerLink="test/atender">
+         <a>
             <p>Pg.atender</p>
          </a>
 
@@ -24,7 +24,7 @@
    </app-nav>
 
    <div class="containerRouter">
-      <router-outlet name="details"></router-outlet>
+      <router-outlet name="detail"></router-outlet>
       <!-- <app-agenda></app-agenda> -->
    </div>
    
