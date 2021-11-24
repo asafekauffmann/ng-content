@@ -16,7 +16,7 @@ const routes: Routes = [
       path: 'test/agenda', component: AgendaComponent, outlet: 'details'
    },
    {
-      path: 'atender', component: AtenderComponent, outlet: 'details'
+      path: 'test/atender', component: AtenderComponent, outlet: 'details'
    }
 ];
 
