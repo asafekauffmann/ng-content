@@ -8,7 +8,6 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { MainComponent } from './nav/main/main.component';
 import { AgendaComponent } from './test/agenda/agenda.component';
-import { RouterModule } from '@angular/router';
 import { AtenderComponent } from './test/atender/atender.component';
 
 @NgModule({
@@ -24,8 +23,7 @@ import { AtenderComponent } from './test/atender/atender.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    RouterModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
