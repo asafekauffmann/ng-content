@@ -1,18 +1,20 @@
 <div class="container">
    <app-nav>
+      <!-- Título da Página -->
       <div class="title">
-         titulo tesdd
+         Título Página
       </div>
    
+      <!-- Profile/ -->
       <div class="profile">
-         testao
+         testa
       </div>
-   
+
+
+      <!-- Menu de navegação interna com rotas filhas -->
       <div class="menu">
          <a routerLink="agenda">
-            <p>
-               Pg.agenda
-            </p>
+            <p>Pg.agenda</p>
          </a>
 
          <a routerLink="atender">
@@ -30,12 +32,11 @@
          <a routerLink="prontuario">
             <p>Pg.prontuário</p>
          </a>
-         
       </div>
+
    </app-nav>
 
    <div class="containerRouter">
-      <p>Rotas Filhas</p>
       <router-outlet></router-outlet>
    </div>
    
