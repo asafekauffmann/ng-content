@@ -3,7 +3,6 @@ import { FilaComponent } from './test/fila/fila.component';
 import { DadosComponent } from './test/dados/dados.component';
 import { AtenderComponent } from './test/atender/atender.component';
 import { AgendaComponent } from './test/agenda/agenda.component';
-import { HomeComponent } from './home/home.component';
 import { TestComponent } from './test/test.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
