@@ -1,4 +1,4 @@
-import { ModalComponent } from './modal/modal.component';
+import { ModalComponent } from './modals/modal/modal.component';
 import { ProntuarioComponent } from './test/prontuario/prontuario.component';
 import { FilaComponent } from './test/fila/fila.component';
 import { DadosComponent } from './test/dados/dados.component';
