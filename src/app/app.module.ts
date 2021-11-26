@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { MainComponent } from './nav/main/main.component';
 import { AgendaComponent } from './test/agenda/agenda.component';
 import { AtenderComponent } from './test/atender/atender.component';
+import { DadosComponent } from './test/dados/dados.component';
+import { FilaComponent } from './test/fila/fila.component';
+import { ProntuarioComponent } from './test/prontuario/prontuario.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { AtenderComponent } from './test/atender/atender.component';
     HomeComponent,
     MainComponent,
     AgendaComponent,
-    AtenderComponent
+    AtenderComponent,
+    DadosComponent,
+    FilaComponent,
+    ProntuarioComponent
     
   ],
   imports: [
