@@ -12,6 +12,7 @@ import { AtenderComponent } from './test/atender/atender.component';
 import { DadosComponent } from './test/dados/dados.component';
 import { FilaComponent } from './test/fila/fila.component';
 import { ProntuarioComponent } from './test/prontuario/prontuario.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProntuarioComponent } from './test/prontuario/prontuario.component';
     AtenderComponent,
     DadosComponent,
     FilaComponent,
-    ProntuarioComponent
+    ProntuarioComponent,
+    ModalComponent
     
   ],
   imports: [

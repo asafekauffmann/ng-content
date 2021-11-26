@@ -10,8 +10,42 @@
           flex-direction: row;
 }
 
+.container .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .profile p {
+  width: 120px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.container .menu a {
+  text-decoration: none;
+  color: #283747;
+}
+
+.container .menu a p {
+  margin: 5px 0;
+  padding: 2px;
+  width: 100px;
+  font-weight: bold;
+}
+
+.container .menu a p:hover {
+  background-color: #1C2833;
+  color: #F2F3F4;
+  font-weight: normal;
+}
+
 .container .containerRouter {
-  background-color: gray;
+  background-color: #ABB2B9;
   width: 100%;
   padding: 30px;
 }

@@ -1,3 +1,4 @@
+import { ModalComponent } from './modal/modal.component';
 import { ProntuarioComponent } from './test/prontuario/prontuario.component';
 import { FilaComponent } from './test/fila/fila.component';
 import { DadosComponent } from './test/dados/dados.component';
@@ -8,6 +9,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+   {
+      path: 'modal', component: ModalComponent
+   },
    {
       path: 'test', component: TestComponent, 
       children: [
