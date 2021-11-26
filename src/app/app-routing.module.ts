@@ -10,9 +10,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
    {
-      path: 'home', component: HomeComponent
-   },
-   {
       path: 'test', component: TestComponent, 
       children: [
          { path: 'agenda', component: AgendaComponent },
